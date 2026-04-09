@@ -25,6 +25,9 @@ nav {
   .nav-buttons {
   display: flex;
   gap: 10px; /* space between buttons */
+  flex-wrap: wrap; /* allows stacking on phone */
+  flex-direction: column;
+  text-align: center;  
 }
 
 .contact{
@@ -55,6 +58,8 @@ nav {
   border-radius: 25px;
   text-decoration: none;
   transition: 0.3s;
+  width: 100%;
+  margin: 5px 0;
 }
 
 .btn:hover {
@@ -131,6 +136,7 @@ nav {
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   transition: 0.3s;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -362,5 +368,9 @@ form button:hover {
   .contact-container {
     flex-direction: column;
   }
-}
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}

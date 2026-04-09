@@ -374,3 +374,10 @@ form button:hover {
   max-width: 1200px;
   margin: auto;
 }
+
+:root {
+  --primary: #0f3d3e;   /* deep teal */
+  --accent: #d4af37;    /* gold */
+  --light: #f8f8f8;
+  --dark: #121212;
+}
